@@ -1,1 +1,1 @@
-**az aks list** //list all clusters
+**az aks list** >list all clusters
