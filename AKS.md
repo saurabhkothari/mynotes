@@ -1,6 +1,6 @@
 **az aks list** list all clusters
 
-| Syntax | Description |
+| Command | Description |
 | ----------- | ----------- |
-| Header | Title |
+| az aks list | list all clusters |
 | Paragraph | Text |
