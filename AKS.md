@@ -1,1 +1,1 @@
-**az aks list** ~list all clusters~
+**az aks list** [^1]: list all clusters
