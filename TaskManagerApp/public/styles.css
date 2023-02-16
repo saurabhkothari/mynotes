@@ -1,0 +1,44 @@
+body {
+  background-color: #F0F0F0;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: #2F80ED;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+.task-due-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.task-priority {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #FFC107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+}
