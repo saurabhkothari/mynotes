@@ -5,6 +5,7 @@
 | az login | MFA Auth |
 | az group | list all resource-groups |
 | az aks list | list all clusters |
+| az aks list -o table | list all cluster in a tabular format |
 
  
 AKS_RESOURCE_GROUP= <br /> 
