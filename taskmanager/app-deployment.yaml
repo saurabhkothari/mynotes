@@ -19,6 +19,6 @@ spec:
           - containerPort: 3000
           env:
             - name: DB_HOST
-              value: mongodb.taskmanager.svc.cluster.local
+              value: mongodb-svc.taskmanager.svc.cluster.local
             - name: DB_PORT
               value: "27017"
