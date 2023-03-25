@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app
+  namespace: taskmanager-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+        - name: taskmanager
+          image: saurabhkothari/task-manager:v13
+          env:
+            - name: DB_HOST
+              value: mongodb.taskmanager-app.svc.cluster.local
+            - name: DB_PORT
+              value: "27017"
